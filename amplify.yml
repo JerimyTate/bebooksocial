@@ -5,7 +5,7 @@ frontend:
     build:
       commands:
         - git submodule update --init --recursive --depth 1
-        - hugo --minify --gc --destination ../public --source ./ --themesDir themes/ --baseURL https://main.d2td877uut3l4y.amplifyapp.com/
+        - hugo --minify --gc --destination public/ --source ./ --themesDir themes/ --baseURL https://main.d2td877uut3l4y.amplifyapp.com/
   artifacts:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: public/
