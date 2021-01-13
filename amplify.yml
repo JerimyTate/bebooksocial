@@ -6,7 +6,7 @@ frontend:
       commands:
         - mkdir public
         - git submodule update --init --recursive --depth 1
-        - hugo --minify --source ./ --themesDir themes/ --baseURL https://main.d2td877uut3l4y.amplifyapp.com/
+        - hugo --minify --source ./ --themesDir themes/ --baseURL https://www.bebooksocial.com/
   artifacts:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: public/
